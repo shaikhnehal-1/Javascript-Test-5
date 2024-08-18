@@ -30,7 +30,6 @@ function ValidBrackets(s) {
         } else if (char === '{') {
             curlyCount++;
         }
-
         //For checking Closing parantheses
         else if (char === ')') {
             paranthesesCount--;
